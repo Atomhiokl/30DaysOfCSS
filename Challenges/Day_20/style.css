@@ -14,16 +14,16 @@ h1 {
 }
 
 h1::before {
-  content: "#ILoveCode";
+  content: "#ILoveCoding";
   position: absolute;
   top: 0%;
   left: 0%;
-  color:#F2637C;
+  color:#000000;
   width: 0%;
   overflow: hidden;
-  transition: all 0.6s;
+  transition: all 3s;
 }
 
 h1:hover::before {
-  width: 100%;
+  width:100%;
 }
